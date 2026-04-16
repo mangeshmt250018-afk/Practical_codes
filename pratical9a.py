@@ -10,7 +10,11 @@ class Student :
         print('Age :',self.age)
         print('Roll Number :',self.roll_no)
         print('Division :',self.division) 
+    
+    def __del__(self):
+        print('del is called')
 
 s1= Student('mangesh',18,48,'b')
 
 s1.show_data()
+del s1
