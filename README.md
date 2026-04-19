@@ -1,2 +1,2 @@
 
-ppl practical c file 
+# ppl practical code  
